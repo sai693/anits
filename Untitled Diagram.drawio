@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-23T11:53:04.912Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="eoIxVMb9nXOjd-b0MHfN" version="20.3.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-23T11:54:00.120Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="VBq2ggdRWVzeVIID3ePm" version="20.3.6" type="github">
   <diagram id="rKkOCk6Rg08PDww74KEL" name="Page-1">
     <mxGraphModel dx="1102" dy="525" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -26,7 +26,7 @@
           <mxGeometry x="20" y="30" width="210" height="260" as="geometry" />
         </mxCell>
         <mxCell id="Div8qzEKU7eRgI8PJj-t-5" value="Amazon EC2" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.ec2;" vertex="1" parent="Div8qzEKU7eRgI8PJj-t-3">
-          <mxGeometry x="50" y="75" width="80" height="100" as="geometry" />
+          <mxGeometry x="68" y="75" width="80" height="100" as="geometry" />
         </mxCell>
         <mxCell id="Div8qzEKU7eRgI8PJj-t-4" value="Private subnet" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_security_group;grStroke=0;strokeColor=#147EBA;fillColor=#E6F2F8;verticalAlign=top;align=left;spacingLeft=30;fontColor=#147EBA;dashed=0;" vertex="1" parent="Div8qzEKU7eRgI8PJj-t-2">
           <mxGeometry x="270" y="30" width="240" height="260" as="geometry" />
@@ -67,11 +67,13 @@
         <mxCell id="Div8qzEKU7eRgI8PJj-t-7" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;strokeWidth=1;shape=mxgraph.mockup.containers.userMale;strokeColor=#666666;strokeColor2=#008cff;" vertex="1" parent="1">
           <mxGeometry x="208" y="580" width="60" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Div8qzEKU7eRgI8PJj-t-13" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.483;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;startArrow=none;" edge="1" parent="1" source="Div8qzEKU7eRgI8PJj-t-8" target="Div8qzEKU7eRgI8PJj-t-2">
+        <mxCell id="Div8qzEKU7eRgI8PJj-t-13" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.483;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;startArrow=none;" edge="1" parent="1" source="Div8qzEKU7eRgI8PJj-t-8" target="Div8qzEKU7eRgI8PJj-t-5">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="220" y="580" as="sourcePoint" />
             <mxPoint x="450" y="350" as="targetPoint" />
-            <Array as="points" />
+            <Array as="points">
+              <mxPoint x="240" y="410" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="Div8qzEKU7eRgI8PJj-t-8" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#4D27AA;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.internet_gateway;" vertex="1" parent="1">
